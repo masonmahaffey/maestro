@@ -1,0 +1,71 @@
+# Data files
+Buzzard_DC1.csv
+data_with_outlier_flags.csv
+consensus_outliers.csv
+
+# Generated plots and visualizations
+*.png
+*.jpg
+*.jpeg
+*.pdf
+
+# Keep important visualizations in repo
+!distributions.png
+!predictions_full_dataset.png
+
+# Machine learning models
+*.joblib
+*.pkl
+*.pickle
+*.h5
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
